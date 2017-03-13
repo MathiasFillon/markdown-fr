@@ -1,10 +1,10 @@
 # Titles
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Comme nous avons commencé à écrire un document, nous devons rajouter un titra et quelques sous-entête.
 
-Markdown supports two styles of headers, Setext and atx.
+Markdow prend en charge deux styles d’en-têtes, Setext et atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Les en-têtes de type Setext sont « soulignés » en utilisant l’égalité et de tirets (pour les sous en-têtes). Exemple : 
 
 ```
 This is an H1
@@ -14,9 +14,9 @@ This is an H2
 -------------
 ```
 
-Any number of underlining =’s or -’s will work.
+N’importe quelle nombre entre les lignes =’s ou -’s marchera.
 
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Les en-têtes  le style Atx utilise 1.6 caractère pour commencer une ligne .
 
 ```
 # This is an H1
@@ -27,7 +27,7 @@ Atx-style headers use 1-6 hash characters at the start of the line, correspondin
 ```
 
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+En option, on peut « fermer » les en-têtes avec le style atx. Vous pouvez utiliser ceci si vous penez qu’il semble mieux. Les hash de fermeture n’ont pas de correspondre au monbre de hash utilisé ouvrir ouvrir l’en-tête.
 
 ```
 # This is an H1 #
@@ -46,7 +46,7 @@ Select the valid headers:
 - [x] `# hello`
 - [ ] `#hello`
 
-> Headers need space between the hash characters and the text.
+> Les en-têtes ont besoin d’espace entre les caractères de hash et le texte.
 
 Select the valid headers:
 - [ ]  
